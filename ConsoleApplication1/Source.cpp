@@ -32,7 +32,7 @@ start:
 		{
 			cout << "введите кол-во часов:";
 			cin >> h;
-			t = h * 360; \
+			t = h * 360; 
 				cout << "Количество секунд:" << t << endl;
 		}
 		else if (i == 2)
@@ -97,46 +97,46 @@ start:
 		cin >> dn;
 		switch (m)
 		{
-			case 1:
+		case 1:
 			K = dn;
 		case 2:
 		{K = 31 + dn;
 		cout << "кол-во дней:" << K << endl; }break;
 		case 3:
 		{K = 31 + 28 + dn;
-			cout << "кол-во дней:" << K << endl;
+		cout << "кол-во дней:" << K << endl;
 		}break;
 		case 4:
 		{K = (31 * 2) + 28 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		case 5:
 		{K = (2 * 31) + 28 + 30 + dn;
-			cout << "кол-во дней:" << K << endl;
-	}break;
+		cout << "кол-во дней:" << K << endl;
+		}break;
 		case 6:
 		{K = (3 * 31) + 28 + 30 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		case 7:
 		{K = (3 * 31) + 28 + 2 * 30 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		case 8:
 		{K = (4 * 31) + 28 + 2 * 30 + dn;
 		cout << "кол-во дней:" << K << endl; }break;
 		case 9:
 		{K = (5 * 31) + 28 + 2 * 30 + dn;
-			cout << "кол-во дней:" << K << endl;
+		cout << "кол-во дней:" << K << endl;
 		}break;
 		case 10:
 		{K = (5 * 31) + 28 + 3 * 30 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		case 11:
 		{K = (6 * 31) + 28 + 3 * 30 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		case 12:
 		{K = (6 * 31) + 28 + 4 * 30 + dn;
-			cout << "кол-во дней:" << K << endl; }break;
+		cout << "кол-во дней:" << K << endl; }break;
 		}
-		
+
 		cout << "Хотите продолжить y/n:";
 		cin >> u;
 		if (u == 'y')
