@@ -6,6 +6,9 @@
 
 using namespace std;
 
+
+
+
 char u;
 void main()
 {
